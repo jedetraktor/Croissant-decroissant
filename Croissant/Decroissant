@@ -1,0 +1,8 @@
+x = float(input("Veuillez saisir un premier nombre :"))
+y = float(input("Veuillez saisir un deuxième nombre :"))
+z = float(input("Veuillez saisir un troisième nombre :"))
+
+if x < y < z :
+   print("Ordre croissant")
+else :
+   print("Ordre décroissant")
